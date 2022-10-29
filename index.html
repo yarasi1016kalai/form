@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  id="form">
+      <div class="container">
+     <div class="heading">
+     <h1 id="title"> Contact Us Form for kids </h1>
+     <p id="description" style="padding:5px;">(Form using HTML CSS & JS DOM manipulation)</p>
+    </div>
+     <div class="details">
+        <div class="form-group">  
+
+         <div class="name"> 
+        <div>
+        <label for="firstname" style="padding-left:15px">FIRST NAME - </label>
+        <input type="text" name="firstname" id="first-name" placeholder="Enter your First name" autocomplete="off" required>
+        </div>
+        <div>
+        <label for="lastname">LAST NAME -</label>
+        <input type="text" name="lastname" id="last-name"  placeholder="Enter your Last name" autocomplete="off" required>
+        </div>   
+        </div> <br>
+
+        <div class="address">
+         <div>
+        <label for="pincode">PINCODE -</label>
+        <input type="text" name="pincode" placeholder="Enter pincode" id="pincode" autocomplete="off" required>
+        </div>
+        <div>
+        <label for="address" >ADDRESS -</label>
+        <textarea type="address" name="address" placeholder="Enter your address" id="address" row="10" col="4" autocomplete="off" required></textarea>
+       </div>
+       </div><br>
+
+        <div class="food">
+        <div style="padding-left:15px;width:50%">
+            <label for="gender">GENDER -</label>
+            <input type="radio" name="gender"  value="MALE"  id="male">MALE
+            <input type="radio" name="gender"  value="FEMALE"  id="female">FEMALE
+            <input type="radio" name="gender"  value="OTHER"  id="other">OTHER
+        </div>
+        <div>
+        <label for="food" id="food"  style="margin-left:50px;width:50%">FAV FOOD (SHOULD SELECT ATLEAST 2) -</label><br>
+        <input type="checkbox" name="food" value="SHAWAI"  >SHAWAI
+        <input type="checkbox" name="food"  value="CHOCOLATE">CHOCOLATE
+        <input type="checkbox" name="food"  value="ALFAM">ALFAM
+        <input type="checkbox" name="food"  value="MEALS">MEALS
+        <input type="checkbox" name="food" value="ICECREAM" >ICECREAM
+        </div>
+        </div> <br>
+  
+    <div class="state">
+    <div>
+    <label for="state" style="padding-left:15px">STATE -</label>
+    <input type="text" name="state" id="state" placeholder="State name" autocomplete="off" required>
+    </div>
+    <div>
+    <label for="country">COUNTRY -</label>
+    <input type="text" name="country" id="country" placeholder="Country name" autocomplete="off" required>
+    </div>
+    </div>
+
+        <button id="submit" class="btn btn-primary" style="text-align:center; background-color: rgb(60, 233, 132); width:30% ; padding:10px; margin-bottom:20px;"> <h3>SUBMIT</h3> </button>
+   
+    </div>
+    </form>
+    </div>
+
+    <table class="table">
+    <thead>
+        <tr>
+         <th>FIRST NAME </th>
+         <th>LAST NAME </th>
+         <th>PINCODE </th>
+         <th>ADDRESS </th>
+         <th>GENDER </th>
+         <th>FAV FOOD </th>
+         <th>STATE  </th>
+         <th>COUNTRY </th>
+        </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+     </table>
+
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

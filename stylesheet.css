@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background-image: url("http://yesofcorsa.com/wp-content/uploads/2018/03/Children-By-The-Seashore-Photo2.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position:top;
+    text-align: center;
+}
+.name{
+    margin:30px;
+    display:flex;
+    justify-content:space-around;
+}
+.address{
+    margin:30px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.food{
+    padding-left: 20px;
+    margin:30px;
+    display:flex;
+    justify-content:space-around;
+}
+.state{
+    margin-bottom:30px;
+    display:flex;
+    justify-content:space-around; 
+}
+table{
+    border-collapse : collapse;
+    width:90%;
+    margin:20px auto;
+    background-color:rgb(251, 221, 182);
+}
+
+table th,td {
+    border:2px solid black;
+}
+th{
+    font-size:20px;
+    font-family:cursive ;
+    color:rgb(13, 8, 17);
+    padding:10px;
+}
+td{
+    font-size:15px;
+    font-family:ariel ;
+    color:rgb(226, 43, 95);
+    height:50px;
+    padding:10px;
+}
+.details{
+    font-family:cursive ;
+    font-size:25px;
+    font-weight:bolder;
+}
+.heading{
+    text-align:center; 
+    background-color: rgb(236, 220, 99);
+     width:100%;
+     padding:15px
+}
